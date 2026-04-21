@@ -25,17 +25,6 @@ An intelligent AI system that generates, researches, improves, and structures hi
 6. Output is displayed + saved (PDF optional)
 
 ---
-📁 Project Structure
-ai-agent/
-│
-├── app.py
-├── agents.py
-├── search.py
-├── memory.py
-├── pdf_export.py
-├── config.py
-└── templates/
-    └── index.html
 
 
 ## 🛠️ Installation
@@ -56,6 +45,17 @@ Create a .env file or set system variable:
 
 GROQ_API_KEY=your_api_key_here
 
+📁 Project Structure
+ai-agent/
+│
+├── app.py
+├── agents.py
+├── search.py
+├── memory.py
+├── pdf_export.py
+├── config.py
+└── templates/
+    └── index.html
 
 
 🧠 Tech Stack
